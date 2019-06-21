@@ -12,6 +12,8 @@
 		4F51D0FE22BB57C000912E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F51D0FC22BB57C000912E69 /* Main.storyboard */; };
 		4F51D10022BB57C300912E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F51D0FF22BB57C300912E69 /* Assets.xcassets */; };
 		4F51D10322BB57C300912E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F51D10122BB57C300912E69 /* LaunchScreen.storyboard */; };
+		4FD431E622BCCD0900E52E52 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD431E422BCCD0900E52E52 /* KeychainWrapper.swift */; };
+		4FD431E722BCCD0900E52E52 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD431E522BCCD0900E52E52 /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4F51D0FF22BB57C300912E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F51D10222BB57C300912E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F51D10422BB57C300912E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD431E422BCCD0900E52E52 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		4FD431E522BCCD0900E52E52 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4F51D0FF22BB57C300912E69 /* Assets.xcassets */,
 				4F51D10122BB57C300912E69 /* LaunchScreen.storyboard */,
 				4F51D10422BB57C300912E69 /* Info.plist */,
+				4FD431E522BCCD0900E52E52 /* KeychainItemAccessibility.swift */,
+				4FD431E422BCCD0900E52E52 /* KeychainWrapper.swift */,
 			);
 			path = "Secret Swift";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD431E622BCCD0900E52E52 /* KeychainWrapper.swift in Sources */,
+				4FD431E722BCCD0900E52E52 /* KeychainItemAccessibility.swift in Sources */,
 				4F51D0FB22BB57C000912E69 /* ViewController.swift in Sources */,
 				4F51D0F922BB57C000912E69 /* AppDelegate.swift in Sources */,
 			);
