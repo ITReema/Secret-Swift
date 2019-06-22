@@ -41,11 +41,15 @@ class ViewController: UIViewController {
                         self?.unlockSecretMessage()
                     } else {
                         // error
+                        let ac = UIAlertController(title: "Authentication failed", message: "You could not be verified; please try again.", preferredStyle: .alert)
+                        ac.addAction(UIAlertAction(title: "OK", style: .default))
+                        self!.present(ac, animated: true)
                     }
                 }
             }
         } else {
             // no biometry
+            
         }
     }
     
